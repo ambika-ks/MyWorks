@@ -1,2 +1,2 @@
 # MyWorks
-Media Queries, Flexbox, CSS Grid
+Media Queries, Flexbox, CSS Grid, JavaScript
