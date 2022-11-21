@@ -1,0 +1,1 @@
+console.log("This is the log for the External CSS");
