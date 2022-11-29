@@ -7,7 +7,7 @@ Here, we are going to design an online furniture store.
 
 ### Part 2: Furniture Grid 
 
-In this section, we will finish building the rest of the page fron CSS GRID PART1. The Final solution is available at,
+In this section, we will finish building the rest of the page fron CSS GRID PART1. The Final solution can be viewed at,
 images/part-2-solution.png
 
 * Add a `div` with the class `subHeading`and create an `h3` tag and add the text “Shop by Category” within this `div`.
@@ -49,4 +49,4 @@ images/part-2-solution.png
           font-size: 18px;
           border-bottom: 5px solid #FF6200;
 	
-Find the result in Web browser ✨
+Find the result in Web browser ✨✨
