@@ -5,6 +5,14 @@ Bootstrap 4 is a popular framework for rapidly prototyping designs.It’s easy t
 Place the following link, in the `<head>` section of the HTML file: 
 `<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">`
 
+
+- `Container`: Containers provide a means to center and horizontally pad your site’s contents.
+
+- `Container-fluid`: Fluid containers function almost the same way as regular containers, except that they span the entire width of your device’s viewport.
+
+- `Row`: Rows are wrappers for columns.
+
+- `Column`: Columns are nested within rows and determine the width of your content within a row (Bootstrap rows can be divided into 12 columns). 
 ## Instructions
 
 1. Copy the link above. You can also find the link and other ways to implement [Bootstrap here](getbootstrap.com).
@@ -34,5 +42,20 @@ Place the following link, in the `<head>` section of the HTML file:
 11. Save your page to see the changes. You should see something resembling the following: 
 
   ![Navbar Solution](./images/navbar-solution.png)
+
+
+12. Add a `<div>` with the class `container-fluid` after your `jumbotron`.
+
+13. Within this new `<div>`, add another `<div>` with the class `row`.
+
+14. At this point, you should have two `<div>` tags, one nested in the other. 
+
+15. Lastly, add a `<div>` with the classes `cardContainer col-lg-3 col-md-3 col-sm-12` within the row div.
+
+16. Final step is to copy and paste this newly created `<div>` three times within the `row div`. 
+
+17. You should now have a `row <div>` with four children `<div>` tags. 
+
+18. If you want to see what is happening on the page, add some dummy copy within the child divs.
 
 
