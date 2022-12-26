@@ -13,6 +13,9 @@ Place the following link, in the `<head>` section of the HTML file:
 - `Row`: Rows are wrappers for columns.
 
 - `Column`: Columns are nested within rows and determine the width of your content within a row (Bootstrap rows can be divided into 12 columns). 
+
+
+
 ## Instructions
 
 1. Copy the link above. You can also find the link and other ways to implement [Bootstrap here](getbootstrap.com).
@@ -82,6 +85,7 @@ Place the following link, in the `<head>` section of the HTML file:
       - Give this CSS selector the `background-color` property with a value of `#f2f2f2`.
       - Give this CSS selector the property of `padding` with a value of `25px`.
       - Give this CSS selector a `border-radius` of `7px`.
+
 <!-- Add a Modal to Your Page -->
 27.  Open Bootstrap’s modal component page: https://getbootstrap.com/docs/4.3/components/modal/#live-demo.
 
