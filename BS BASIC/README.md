@@ -68,4 +68,4 @@ Place the following link, in the `<head>` section of the HTML file:
 
 22. Add the corresponding images to the cards from the images(src="images/1_card.png" ....).
 
-
+23. Save the changes and refresh the page to see the results.

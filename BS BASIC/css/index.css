@@ -18,3 +18,8 @@ footer {
   padding: 25px;
   border-radius: 7px;
 }
+
+.card-title{
+  font-family:Arial, Helvetica, sans-serif;
+  color:cadetblue;
+}
