@@ -43,7 +43,7 @@ Place the following link, in the `<head>` section of the HTML file:
 
   ![Navbar Solution](./images/navbar-solution.png)
 
-
+<!-- Containers and Rows -->
 12. Add a `<div>` with the class `container-fluid` after your `jumbotron`.
 
 13. Within this new `<div>`, add another `<div>` with the class `row`.
@@ -57,6 +57,7 @@ Place the following link, in the `<head>` section of the HTML file:
 17. You should now have a `row <div>` with four children `<div>` tags. 
 
 18. If you want to see what is happening on the page, add some dummy copy within the child divs.
+<!-- cards -->
 
 19. Review the [Boostrap documentation](https://getbootstrap.com/docs/4.3/components/card/) on cards.
 
@@ -69,3 +70,29 @@ Place the following link, in the `<head>` section of the HTML file:
 22. Add the corresponding images to the cards from the images(src="images/1_card.png" ....).
 
 23. Save the changes and refresh the page to see the results.
+
+<!-- Add a Form to Your Page  -->
+24. In `index.html` file, create a section with the class of `container-fluid` and `signUp`.
+- Nested inside of it, create a div with the class of row. We will nest our form inside this element.
+
+25. Open the Bootstrap form component page: https://getbootstrap.com and navigate to the first form element you find on the page, then,copy it and paste it into your HTML below your cards; comment `<!-- Add form group below →`.
+
+26. Open the `index.css` file and add the following properties to the class `signUp`.
+      - Give this CSS selector the property `margin` with a property of `35px auto` to center our form element and give it some spacing.
+      - Give this CSS selector the `background-color` property with a value of `#f2f2f2`.
+      - Give this CSS selector the property of `padding` with a value of `25px`.
+      - Give this CSS selector a `border-radius` of `7px`.
+<!-- Add a Modal to Your Page -->
+27.  Open Bootstrap’s modal component page: https://getbootstrap.com/docs/4.3/components/modal/#live-demo.
+
+28. Copy the modal element of the live demo and paste it into your HTML.
+
+29. Delete the button element, so you can link the modal to your own button pictured below.
+    This button has two important attributes to take note of:
+    - `data-toggle=”modal”`
+    - `data-target=”#exampleModal”`
+    Add these two attributes to the button in the `jumbotron`.
+
+30. Reload your page and see the result. Make sure you click the `jumbotron` button! You should see your modal animate before your eyes.The       
+    attribute data target must match the ID of the jumbotron you want it to toggle. You can have multiple modal windows, but each must have a 
+    different ID and data target.
