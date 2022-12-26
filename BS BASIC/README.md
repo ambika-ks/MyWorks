@@ -58,4 +58,14 @@ Place the following link, in the `<head>` section of the HTML file:
 
 18. If you want to see what is happening on the page, add some dummy copy within the child divs.
 
+19. Review the [Boostrap documentation](https://getbootstrap.com/docs/4.3/components/card/) on cards.
+
+20. Copy the code for the first card component on the page. Paste the code inside each `<div>` with a class of `cardContainer col-lg-3 col-md-3 col-sm-12`.
+
+21.  Save the changes and refresh the page, then, the results should look like the image shown below: 
+
+  ![Card Solution](./images/card-solution.png)
+
+22. Add the corresponding images to the cards from the images(src="images/1_card.png" ....).
+
 
