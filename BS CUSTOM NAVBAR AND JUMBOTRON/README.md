@@ -75,11 +75,11 @@ Now you have a fully customized navbar for your site!
 13.  Add the following CSS within a selector that targets the `jumbotron <div>`:
 
   ![Jumbotron CSS Properties](./images/jumbotron-css-properties.png)
-  
+
   You can change cover to contain and no-repeat to repeat, for a different appearence😉.
 
 14. Add a selector for the `jumboCopy` class with the following properties and values:
 
   ![jumboCopy CSS Properties](./images/jumboCopy-css-properties.png)
 
-15. Refresh the webpage and see the Result!
+15. Refresh the webpage and see the Result!😎
