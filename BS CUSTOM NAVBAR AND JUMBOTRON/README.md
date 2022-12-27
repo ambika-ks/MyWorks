@@ -82,4 +82,4 @@ Now you have a fully customized navbar for your site!
 
   ![jumboCopy CSS Properties](./images/jumboCopy-css-properties.png)
 
-15. Refresh the webpage and see the Result!😎
+15. Refresh the webpage and see the Result! 😎
