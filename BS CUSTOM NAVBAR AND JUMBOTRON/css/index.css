@@ -20,7 +20,7 @@ h4,
 h5,
 h6
 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 p{
@@ -68,4 +68,23 @@ p{
 
 .navCTA{
   font-size: 15px;
+}
+
+.jumbotron{
+  background-image: url(../images/rockOn_dark.jpg);
+  background-size:contain;
+  background-repeat: repeat;
+  height: 500px;
+  height: calc(100vh-25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumboCopy{
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
 }

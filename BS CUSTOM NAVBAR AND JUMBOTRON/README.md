@@ -1,20 +1,19 @@
-# Custom Webpage Navbar
+# Custom Webpage Navbar and Jumbotron
 
-Every website needs an intuitive and well-crafted navigation layout so that users can quickly get to the content they’re seeking. Bootstrap’s default navigation component offers a pretty good solution, but what if it doesn’t match your design’s layout and mood? 
-
-In this activity, you’ll customize your site’s navbar to better reflect the site’s layout and overall brand identity.
+Every website needs an intuitive and well-crafted navigation layout so that users can quickly get to the content they’re seeking. Bootstrap’s default navigation component offers a pretty good solution.In this activity, we’ll customize our site’s navbar to better reflect the site’s layout and overall brand identity.
 
   ![Custom Navbar Solution](./images/custom-navbar-solution.png)
 
+   ![Custom Jumbotron Solution](./images/custom-jumbotron-solution.png)
+
+
 ## Instructions
 
-### Part 1: Update the HTML
-
-1. Open the `starter` folder and navigate to `index.html`. 
-- You will build on this file for all of today’s activities.
+<!-- Custom Navbar -->
+1. Open the `index.html`. 
 
 2. Add the `customNav` class to the `<nav>` element.
-- You will use this new class to style your navbar later.
+- We will use this new class to style your navbar later.
 
 3. Update the first `<a>` tag by replacing the Navbar text with the following:
 - An `<img src="images/acoustic-guitar.png”> tag`.
@@ -24,11 +23,10 @@ In this activity, you’ll customize your site’s navbar to better reflect the 
 - Change `Home` to `Venues`, `Link` to `Artist`, and `Dropdown` to `Near You`.
 
 5. Change the three `dropdown` options to `Venues`, `Artists`, and `Upcoming Acts`.
-- **Hint:** You can find these dropdown items in the dropdown menu `<div>`.
 
 6. Next, delete the `<form>` element from the template navbar.
 
-7. Lastly, you will add a new navigation list item with a button inside:
+7. Add a new navigation list item with a button inside:
 - Add a `<li>` tag after the dropdown `<li>`.
 - Give it the same class name as the other `<li>` elements in the navbar.
 - Add a `<a>` tag with the following properties:
@@ -37,24 +35,11 @@ In this activity, you’ll customize your site’s navbar to better reflect the 
   - `role="button"`
   - `Buy Tickets` text
 
-8. You can view your changes in your browser, but there won’t be much to see yet!
+8. Open `index.css`.Create a selector that targets all the heading tags (`<h1>` through `<h6>`).
 
-### Part 2: Update the CSS
+9. Add the property `font-family` and set its value to `'Anton', sans-serif;` or your choice.
 
-1. Open `index.css`.
-- You will notice three selectors already created. Add your custom CSS above these prewritten selectors.
-
-2. Create a selector that targets all the heading tags (`<h1>` through `<h6>`).
-
-- You can target multiple elements, classes, or IDs with the following syntax:
-
- `element1, element2, ... {
-   .example-class
-}`
-
-3. Add the property `font-family` and set its value to `'Anton', sans-serif;`.
-
-4. Add a selector that targets the `<p>` element and sets its `font-family` to `'Jura', sans-serif;`.
+10. Add a selector that targets the `<p>` element and sets its `font-family` to `'Jura', sans-serif;` or select your choice.
 
 5. Add the following selectors, properties, and values to begin styling your navbar:
 
@@ -78,9 +63,22 @@ In this activity, you’ll customize your site’s navbar to better reflect the 
 
 Now you have a fully customized navbar for your site!
 
+<!-- Custom Jumbotron -->
+9.  Add the `rockBackground` class to the `jumbotron <div>`.
 
-Great work!
+10. Add a new `<div>` with the class `jumboCopy` within the `jumbotron <div>`.
 
----
+11. Move the jumbotron’s content within this new `<div>`.
 
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+12. Update the copy and button text in the jumbotron to reflect the design above. 
+
+13.  Add the following CSS within a selector that targets the `jumbotron <div>`:
+
+  ![Jumbotron CSS Properties](./images/jumbotron-css-properties.png)
+  You can change cover to contain and no-repeat to repeat, for a different appearence😉.
+
+14. Add a selector for the `jumboCopy` class with the following properties and values:
+
+  ![jumboCopy CSS Properties](./images/jumboCopy-css-properties.png)
+
+15. Refresh the webpage and see the Result!
