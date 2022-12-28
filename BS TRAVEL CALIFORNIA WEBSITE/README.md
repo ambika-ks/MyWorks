@@ -169,6 +169,3 @@ The Inspect tab in Figma lets you view and copy the existing code and values for
 
 - **Tip:** If you get stuck, use your Google-fu to find answers about how to style specific elements (e.g., Google phrases like, “How to make a container span the full width of its parent” or “How to underline an h1 tag”).
 
----
-
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

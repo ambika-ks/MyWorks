@@ -53,3 +53,90 @@ section {
 section h2 {
   font-size: 50px;
 }
+/* 
+.jumbotron{
+  position: absolute;
+  left: -0.03%;
+  right: 0.05%;
+  top: 0%;
+  bottom: 75.45%;
+  height: 1080px;
+  width: 1919.5361328125px;
+  left: -0.5361328125px;
+  top: 0px;
+  border-radius: [object Object]px;
+
+  background:url(../images/card.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#mainNav{
+  position: absolute;
+  left: 8.85%;
+  right: 10.89%;
+  top: 0.7%;
+  bottom: 97.8%;
+  height: 66px;
+  width: 1541px;
+  left: 170px;
+  top: 31px;
+  border-radius: nullpx;
+}
+
+.headText{
+  align-self: outside;
+  stroke:solid #313131;
+  color:#fdcc52
+  
+}
+
+
+
+.screen{
+  position:absolute;
+  left: 62.14%;
+  right: 14.79%;
+  top: 2.48%;
+  bottom: 77.2%;
+  height: 894px;
+  width: 443px;
+  left: 1193px;
+  top: 109px;
+  border-radius: 0px;
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+  /* border: 1px solid rgba(0, 0, 0, 1); */
+
+/* 
+}
+
+.col-lg-7{
+  position: absolute;
+  left: 15.36%;
+  right: 46.93%;
+  top: 5.68%;
+  bottom: 82.14%;
+  border: 1px solid rgba(255, 255, 255, 1);
+  height: 536px;
+  width: 724px;
+  left: 295px;
+  top: 250px;
+  border-radius: 100px;
+} */
+
+
+/* {
+  height: 1080px;
+width: 1919.5361328125px;
+left: -0.5361328125px;
+top: 0px;
+border-radius: 0px;
+position: absolute;
+left: -0.03%;
+right: 0.05%;
+top: 0%;
+bottom: 75.45%;
+
+background: url(Rectangle 4.jpg);
+
+} */ 
