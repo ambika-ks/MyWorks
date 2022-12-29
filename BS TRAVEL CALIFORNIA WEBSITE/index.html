@@ -21,6 +21,10 @@
 
    <!-- Custom styles for this template -->
    <link href="css/index.css" rel="stylesheet">
+   
+   
+   <!-- Font Awesome icons -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <title>abdcd Travel California</title>
 </head>
@@ -34,7 +38,7 @@
   <!-- Navigation -->
   <nav class="" id="mainNav">
     <div class="container">
-      <a class="headText" href="">Travel California</a>
+      <a class="headText" href="#">Travel California</a>
     </div>
     <div>
       <ul>
@@ -85,7 +89,7 @@
 
 
   <!-- Download Section -->
-  <section class="download" id="download">
+  <section class="download bg-color" id="download">
     <div class="container">
       <div class="row">
         <div class="col-md-8">
@@ -110,7 +114,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12">
           <div class="testimonial-item">
-              <img src="images/testimonials-1.jpg">
+              <img class="round-image" src="images/testimonials-1.jpg">
               <h5>Margaret E.</h5>
               <p> "This is fantastic! Thanks so much guys!" </p>
             </div> 
@@ -118,7 +122,7 @@
 
         <div class="col-lg-4 col-md-4 col-sm-12">
           <div class="testimonial-item">
-              <img src="images/testimonials-3.jpg">
+              <img class="round-image" src="images/testimonials-3.jpg">
               <h5>Sarah S.</h5>
               <p>"Travel California is amazing. I've been using it to explore lots of super nice national parks"</p>
             </div> 
@@ -126,7 +130,7 @@
 
         <div class="col-lg-4 col-md-4 col-sm-12">
           <div class="testimonial-item">
-              <img src="images/testimonials-2.jpg">
+              <img class="round-image" src="images/testimonials-2.jpg">
               <h5>Fred W.</h5>
               <p>"Thanks so much for making these free resources available to us" </p>
             </div> 
@@ -141,11 +145,11 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
-          <i></i>
-          <h2>Subscribe to receive updates!</h2>
-          <form>
-            <input>
-            <button>Subscribe</button>
+          <i class="far fa-paper-plane fa-2x mb-2 text-white :: before"></i>
+          <h2 class="text-white-align">Subscribe to receive updates!</h2>
+          <form class="form-size">
+            <input id="inputEmail" placeholder="   ENTER EMAIL ADDRESS.." size="50">
+            <button class="btn" type="submit">SUBSCRIBE</button>
           </form>
         </div>
       </div>
@@ -159,13 +163,13 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="card">
             <div class="card-body">
-                <i></i>
+                <i class="fas fa-map-marked-alt"></i>
                 <h4 class="text-uppercase">ADDRESS</h4>
+                <hr><br>
                 <div>
-                   <!-- check what to do -->
                    <p>
                     4923 Market street,<br>
                     Sacramento, CA
@@ -175,13 +179,13 @@
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="card">
             <div class="card-body">
-                <i></i>
+                <i class="fas fa-envelope"></i>
                 <h4 class="text-uppercase">EMAIL</h4>
+                <hr><br>
                 <div>
-                   <!-- check what to do -->
                    <p>
                     hello@california.com
                    </p>
@@ -190,13 +194,13 @@
           </div>
         </div>
         
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="card">
             <div class="card-body">
-                <i></i>
+                <i class="fas fa-mobile-alt"></i>
                 <h4 class="text-uppercase">PHONE</h4>
+                <hr><br>     
                 <div>
-                   <!-- check what to do -->
                    <p>
                     1(800) CALI-FORNIA
                    </p>
@@ -212,6 +216,12 @@
           <a href="www.twitter.com">Twitter</a>
           <a href="www.facebook.com">Facebook</a>
           <a href="#">gh</a>
+        
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+          </span>     
+
           <!-- <i>Check how to add icon with I tag inside a tag</i> -->
       </div>
     </div>
@@ -221,7 +231,7 @@
 
   <footer>
     <div class="container">
-      <p> Copyright [ambika-ks]</p>
+      <p> @Copyright [ambika-ks]</p>
     </div>
   </footer>
 

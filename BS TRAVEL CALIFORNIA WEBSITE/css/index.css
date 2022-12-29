@@ -53,90 +53,98 @@ section {
 section h2 {
   font-size: 50px;
 }
-/* 
-.jumbotron{
-  position: absolute;
-  left: -0.03%;
-  right: 0.05%;
-  top: 0%;
-  bottom: 75.45%;
-  height: 1080px;
-  width: 1919.5361328125px;
-  left: -0.5361328125px;
-  top: 0px;
-  border-radius: [object Object]px;
 
-  background:url(../images/card.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+
+
+
+/* Navigation bar styles ============= */
+#mainNav {
+  border-color: rgba(34, 34, 34, 0.05);
+  background-color:#64a19d;
+  transition: all .35s;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+} 
+
+header.masthead {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: white;
+  background: url("../images/bg-img.svg");
 }
 
-#mainNav{
-  position: absolute;
-  left: 8.85%;
-  right: 10.89%;
-  top: 0.7%;
-  bottom: 97.8%;
-  height: 66px;
-  width: 1541px;
-  left: 170px;
-  top: 31px;
-  border-radius: nullpx;
+.bg-color{
+  background-color: #fcbd20;
 }
 
-.headText{
-  align-self: outside;
-  stroke:solid #313131;
-  color:#fdcc52
-  
+.round-image{
+  border-radius: 50%;
+  height: auto;
 }
 
-
-
-.screen{
-  position:absolute;
-  left: 62.14%;
-  right: 14.79%;
-  top: 2.48%;
-  bottom: 77.2%;
-  height: 894px;
-  width: 443px;
-  left: 1193px;
-  top: 109px;
-  border-radius: 0px;
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
-  /* border: 1px solid rgba(0, 0, 0, 1); */
-
-/* 
+.signup-section{
+  background-image:url("../images/SF.svg") ;
 }
 
-.col-lg-7{
-  position: absolute;
-  left: 15.36%;
-  right: 46.93%;
-  top: 5.68%;
-  bottom: 82.14%;
-  border: 1px solid rgba(255, 255, 255, 1);
-  height: 536px;
-  width: 724px;
-  left: 295px;
-  top: 250px;
-  border-radius: 100px;
-} */
+.text-white-align{
+  color: white;
+  font-weight:bold;
+  text-shadow: 1px 1px #FF0000;
+}
 
+.col-lg-8{
+  text-align: center;
+  height: 400px;
+  margin: 50px;
+}
 
-/* {
-  height: 1080px;
-width: 1919.5361328125px;
-left: -0.5361328125px;
-top: 0px;
-border-radius: 0px;
-position: absolute;
-left: -0.03%;
-right: 0.05%;
-top: 0%;
-bottom: 75.45%;
+.btn{
+  height:50px ;
+  border-radius: 300px;
+  background-color: rgb(46, 46, 249);
+  border-color: rgb(13, 13, 246);
+  color: white;
+}
 
-background: url(Rectangle 4.jpg);
+.form-size{
+  padding: 25px;
+  margin: 25px;
+}
 
-} */ 
+#inputEmail{
+  height: 50px;
+}
+.bg-black{
+  background-color: rgba(0, 0, 0, 0.851) !important;
+}
+
+.card{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+ }
+
+ .fas{
+  color: blue;
+ }
+
+ .contact-section .card hr {
+  border-color: #64a19d;
+  border-width: 0.15rem;
+  margin-top: 5px;
+  width: 100px;
+}
+
+.text-uppercase{
+  padding: 5px;
+  padding-bottom: 5px;
+}
+
+.card{
+  border-bottom: 5px solid #64a19d;
+}
