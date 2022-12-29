@@ -99,11 +99,16 @@ header.masthead {
 }
 
 .col-lg-7{
-  padding: 150px;
+  padding: 100px;
 }
 
 strong{
   text-shadow: 2px 2px 4px #000000;
+}
+
+.col-lg-7 h1{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
 }
 
 .btn1{
@@ -111,7 +116,7 @@ strong{
   border-radius: 300px;
   text-transform: uppercase;
   padding: 20px;
-  margin-left: 100px;
+  margin-left: 60px;
   letter-spacing: 2px;
   border: 1px solid white;
 }
