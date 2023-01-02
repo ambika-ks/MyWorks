@@ -1,4 +1,4 @@
-/* Global styles ============= */
+/* ---Global styles----*/
 html,
 body {
   width: 100%;
@@ -91,7 +91,7 @@ ul{
 header.masthead {
   position: relative;
   width: 100%;
-  padding-top: 150px;
+  padding-top: 10px;
   padding-bottom:100px;
   color: white;
   background: url("../images/bg-img.svg");
@@ -212,7 +212,7 @@ border-top: 50px solid #f8b50c;
 }
 
 .fab{
-  padding-left:  30px;
+  padding-left:10px;
   color: aliceblue;
   font-size: 40px;
  
