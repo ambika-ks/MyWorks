@@ -4,7 +4,7 @@ Implement the following user story:
 
 * As a web developer, I want all of my titles on a webpage to have the same styling. 
 
-## Acceptance Criteria
+## Instructions
 
 * It's done when all the `<h4>` elements are selected and stored in a single variable.
 
@@ -14,17 +14,3 @@ Implement the following user story:
 
 ---
 
-## 💡 Hints
-
-How can you use a loop to iterate over a list of elements? 
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge to further your knowledge:
-
-* How would using the `:scope` pseudo-class be useful when working with`querySelectorAll()`?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
