@@ -12,9 +12,10 @@ var prices =Object.values(menu);
 //Initialize total amount
 var total=0;
 
+console.log(Object.keys(menu));
+
 //Print the entire menu
-console.log(` Drinks Available 
-    ${Object.keys(menu)}`);
+console.log(`Drinks Available, ${Object.keys(menu)}`);
 
 //Find total amount with loop statement
 for(let i=0;i<prices.length;i++){
