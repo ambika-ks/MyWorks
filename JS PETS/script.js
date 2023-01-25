@@ -28,4 +28,3 @@ if (shelter.dogs.includes(chosenPet)) {
   console.log("Check out our featured dog, " + shelter.dogs[0] + ". or our featured cat, " + shelter.cats[1]);
 }
   
-
