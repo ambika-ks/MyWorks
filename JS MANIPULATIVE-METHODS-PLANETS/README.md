@@ -1,6 +1,6 @@
 # 📖 Implement Array and String Manipulative Methods
 
-Work with a partner to implement the following user stories:
+Implement the following user stories:
 
 * As a developer, I want to use array methods to add and remove elements from an array and join two arrays.
 
@@ -16,7 +16,7 @@ Work with a partner to implement the following user stories:
 
 * It's done when the string `"polaris"` is converted into all capital letters and the new string is stored in a variable.
 
-## 📝 Notes
+##  Notes
 
 Refer to the documentation:
 
@@ -24,14 +24,9 @@ Refer to the documentation:
 
 [MDN Web Docs on string instance methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Instance_methods)
 
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
+## EXTRA
 
 * What happens when you use `typeof` on an array? What is returned? Is that what you expected? Why or why not? 
 
 Use [Google](https://www.google.com) or another search engine to research this. 
 
----
-
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
