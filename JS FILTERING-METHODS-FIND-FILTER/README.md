@@ -11,5 +11,3 @@
 * Use the filter method to create a new array of only Users with a last name that begins with the same letter, and print it to the console.
 
 ---
-
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
