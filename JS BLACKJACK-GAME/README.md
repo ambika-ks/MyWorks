@@ -1,6 +1,5 @@
 # Blackjack Game
-
-In this mini-project you will work with a partner to complete a simple blackjack game.
+Complete a simple blackjack game.
 
 ## Instructions
 
@@ -45,5 +44,3 @@ This is a difficult challenge. How you build this game is up to you. The goal he
   * We've used a lot of `for` loops. Don't forget that there are other types of loops.
 
 ---
-
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
