@@ -16,6 +16,8 @@ var planet = {
   }
 };
 
+
+
 // To access a value in an array, use the name of the object, the key and the index.
 // Logs "Mars" using dot notation
 console.log(planet.neighboringPlanets[0]);
